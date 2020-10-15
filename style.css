@@ -1,0 +1,48 @@
+:root {
+    font-size: 10px;
+    --pc: #00AE26;
+    --sc: #00FFD3;
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu', sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: var(--sc);
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    padding-left: 0.1rem;
+    margin-top: -0.8rem;
+    margin-left: -0.8rem;
+
+
+}
+
+ nav a {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: var(--ps);
+} 
+
+main {
+        margin-left: 10rem;   
+}
+section {
+    margin-bottom: 3rem;
+}
+main header {
+    font-size: 40px;
+}
+
+@media view (max-width: 800px ) {
+    .card {
+        width: 6rem;
+    }
+}
